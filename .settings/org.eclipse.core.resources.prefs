@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//WebContent/CustomerMSGDetails.jsp=UTF-8
+encoding//WebContent/customerProfile.jsp=UTF-8
+encoding//src/com/hajar/zaki/controller/MainTest.java=UTF-8
+encoding//src/com/hajar/zaki/dao/InsertImageDao.java=UTF-8
+encoding//src/com/hajar/zaki/servlets/ContactServlet.java=UTF-8
+encoding//src/com/hajar/zaki/servlets/SmsServlet.java=UTF-8

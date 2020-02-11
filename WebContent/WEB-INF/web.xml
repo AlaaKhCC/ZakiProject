@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app 
+
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee     
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4.0.xsd"
+         id="WebApp_ID"
+         version="4.0"  > 
+
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+      <absolute-ordering />
+ 
+  
+   <!-- UserServlet -->
+   <servlet>
+	 <description></description>
+	 <display-name>UserServlet</display-name>
+	 <servlet-name>UserServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.UserServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>UserServlet</servlet-name>
+	 <url-pattern>/UserServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- RegisterServlet -->
+	 <servlet>
+	 <description></description>
+	 <display-name>RegisterationServlet</display-name>
+	 <servlet-name>RegisterationServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.RegisterationServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>RegisterationServlet</servlet-name>
+	 <url-pattern>/RegisterationServlet</url-pattern>
+	 </servlet-mapping>
+ 
+ 	<!--  HomeServlet-->
+ 	 <servlet>
+	 <description></description>
+	 <display-name>HomeServlet</display-name>
+	 <servlet-name>HomeServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.HomeServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>HomeServlet</servlet-name>
+	 <url-pattern>/HomeServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!--  LogOutServlet-->
+ 	 <servlet>
+	 <description></description>
+	 <display-name>LogoutServlet</display-name>
+	 <servlet-name>LogoutServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.LogoutServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>LogoutServlet</servlet-name>
+	 <url-pattern>/LogoutServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- Category Servlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name>CategoryServlet</display-name>
+	 <servlet-name>CategoryServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.CategoryServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>CategoryServlet</servlet-name>
+	 <url-pattern>/CategoryServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- MainCourse Servlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name>MainCourseServlet</display-name>
+	 <servlet-name>MainCourseServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.MainCourseServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>MainCourseServlet</servlet-name>
+	 <url-pattern>/MainCourseServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	  <!-- Sweet Servlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name>SweetServlet</display-name>
+	 <servlet-name>SweetServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.SweetServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>SweetServlet</servlet-name>
+	 <url-pattern>/SweetServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- Salad Servlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name> SaladServlet</display-name>
+	 <servlet-name> SaladServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.SaladServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name> SaladServlet</servlet-name>
+	 <url-pattern>/SaladServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 	 
+	 <!-- LIServlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name> LIServlet</display-name>
+	 <servlet-name> LIServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.LIServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name> LIServlet</servlet-name>
+	 <url-pattern>/LIServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	  <!-- AddressServlet -->
+	 
+	 <servlet>
+	 <description></description>
+	 <display-name>AddressServlet</display-name>
+	 <servlet-name>AddressServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.AddressServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>AddressServlet</servlet-name>
+	 <url-pattern>/AddressServlet/</url-pattern>
+	 </servlet-mapping>
+	 
+	  <!-- CheckoutServlet -->
+   <servlet>
+	 <description></description>
+	 <display-name>CheckoutServlet</display-name>
+	 <servlet-name>CheckoutServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.CheckoutServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>CheckoutServlet</servlet-name>
+	 <url-pattern>/CheckoutServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	  <!-- SmsServlet -->
+   	 <servlet>
+	 <description></description>
+	 <display-name>SmsServlet</display-name>
+	 <servlet-name>SmsServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.SmsServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>SmsServlet</servlet-name>
+	 <url-pattern>/SmsServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- ProductServlet -->
+   	 <servlet>
+	 <description></description>
+	 <display-name>ProductServlet</display-name>
+	 <servlet-name>ProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.ProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>ProductServlet</servlet-name>
+	 <url-pattern>/ProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 
+	   <!--DisplayImageServlet -->
+   	 <servlet>
+	 <description></description>
+	 <display-name>DisplayImageServlet</display-name>
+	 <servlet-name>DisplayImageServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.DisplayImageServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>DisplayImageServlet</servlet-name>
+	 <url-pattern>/DisplayImageServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- OrderServlet -->
+	  <servlet>
+	 <description></description>
+	 <display-name>OrderServlet</display-name>
+	 <servlet-name>OrderServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.OrderServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>OrderServlet</servlet-name>
+	 <url-pattern>/OrderServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- filehandlerServlet -->
+	  <servlet>
+        <servlet-name>FileUploadDBServlet</servlet-name>
+        <servlet-class>com.hajar.zaki.servlets.FileUploadDBServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileUploadDBServlet</servlet-name>
+        <url-pattern>/FileUploadDBServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>Auto</servlet-name>
+      <servlet-class>com.hajar.zaki.servlets.AutoCompleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+      <servlet-name>Auto</servlet-name>
+      <url-pattern>/Auto</url-pattern>
+    </servlet-mapping>
+    
+    <!--AddProductServlet -->
+     <servlet>
+	 <description></description>
+	 <display-name>AddProductServlet</display-name>
+	 <servlet-name>AddProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.AddProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>AddProductServlet</servlet-name>
+	 <url-pattern>/AddProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <!-- AddMsgServlet-->
+	 <servlet>
+	 <description></description>
+	 <display-name>AddMsgServlet</display-name>
+	 <servlet-name>AddMsgServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.AddMsgServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>AddMsgServlet</servlet-name>
+	 <url-pattern>/AddMsgServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 	 <!-- UpdateOrderStatus-->
+	 <servlet>
+	 <description></description>
+	 <display-name>UpdateOrderStatus</display-name>
+	 <servlet-name>UpdateOrderStatus</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.UpdateOrderStatus</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>UpdateOrderStatus</servlet-name>
+	 <url-pattern>/UpdateOrderStatus</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 	 <!-- UpdateUserDataServlet -->
+	 <servlet>
+	 <description></description>
+	 <display-name>UpdateUserDataServlet</display-name>
+	 <servlet-name>UpdateUserDataServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.UpdateUserDataServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>UpdateUserDataServlet</servlet-name>
+	 <url-pattern>/UpdateUserDataServlet</url-pattern>
+	 </servlet-mapping>
+  
+  
+     <!-- UpdateProductServlet -->
+  
+   <servlet>
+	 <description></description>
+	 <display-name>UpdateProductServlet</display-name>
+	 <servlet-name>UpdateProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.UpdateProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>UpdateProductServlet</servlet-name>
+	 <url-pattern>/UpdateProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	   <!-- DeleteProductServlet -->
+  
+   <servlet>
+	 <description></description>
+	 <display-name>DeleteProductServlet</display-name>
+	 <servlet-name>DeleteProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.DeleteProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>DeleteProductServlet</servlet-name>
+	 <url-pattern>/DeleteProductServlet</url-pattern>
+	 </servlet-mapping>
+  
+  
+  
+  
+    <!-- DeleteOrderServlet -->  
+    <servlet>
+	 <description></description>
+	 <display-name>DeleteOrderServlet</display-name>
+	 <servlet-name>DeleteOrderServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.DeleteOrderServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>DeleteOrderServlet</servlet-name>
+	 <url-pattern>/DeleteOrderServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	   <!-- DeleteAllOrdersOFCustomer -->  
+    <servlet>
+	 <description></description>
+	 <display-name>DeleteAllOrdersOFCustomer</display-name>
+	 <servlet-name>DeleteAllOrdersOFCustomer</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.DeleteAllOrdersOFCustomer</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>DeleteAllOrdersOFCustomer</servlet-name>
+	 <url-pattern>/DeleteAllOrdersOFCustomer</url-pattern>
+	 </servlet-mapping>
+	 
+	  
+	  <!-- AddOrderServlet -->	 
+	 <servlet>
+	 <description></description>
+	 <display-name>AddOrderServlet</display-name>
+	 <servlet-name>AddOrderServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.AddOrderServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>AddOrderServlet</servlet-name>
+	 <url-pattern>/AddOrderServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 <!--  LikeProductServlet -->
+	 
+	  <servlet>
+	 <description></description>
+	 <display-name>LikeProductServlet</display-name>
+	 <servlet-name>LikeProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.LikeProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>LikeProductServlet</servlet-name>
+	 <url-pattern>/LikeProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 <!-- ContactServlet -->
+	 <servlet>
+	 <description></description>
+	 <display-name>ContactServlet</display-name>
+	 <servlet-name>ContactServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.ContactServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>ContactServlet</servlet-name>
+	 <url-pattern>/ContactServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 <!-- RatingProductServlet-->
+	 <servlet>
+	 <description></description>
+	 <display-name>RatingProductServlet</display-name>
+	 <servlet-name>RatingProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.RatingProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>RatingProductServlet</servlet-name>
+	 <url-pattern>/RatingProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 
+	 <!-- OrderConfirmationServlet -->
+	 <servlet>
+	 <description></description>
+	 <display-name>OrderConfirmationServlet</display-name>
+	 <servlet-name>OrderConfirmationServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.OrderConfirmationServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>OrderConfirmationServlet</servlet-name>
+	 <url-pattern>/OrderConfirmationServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	  <!-- FeedbackProductServlet -->
+	 <servlet>
+	 <description></description>
+	 <display-name>FeedbackProductServlet</display-name>
+	 <servlet-name>FeedbackProductServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.FeedbackProductServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>FeedbackProductServlet</servlet-name>
+	 <url-pattern>/FeedbackProductServlet</url-pattern>
+	 </servlet-mapping>
+	 
+	 
+	 
+   <servlet>
+	 <description></description>
+	 <display-name>UpdateUserDataSupServlet</display-name>
+	 <servlet-name>UpdateUserDataSupServlet</servlet-name>
+	 <servlet-class>com.hajar.zaki.servlets.UpdateUserDataSupServlet</servlet-class>
+	</servlet>
+	 <servlet-mapping>
+	 <servlet-name>UpdateUserDataSupServlet</servlet-name>
+	 <url-pattern>/UpdateUserDataSupServlet</url-pattern>
+	 </servlet-mapping>
+  
+   <!-- welcome-file-list -->
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  	<welcome-file>login.jsp</welcome-file>
+  	<welcome-file>register.jsp</welcome-file>
+  	<welcome-file>category.jsp</welcome-file>
+  	<welcome-file>mainCourse.jsp</welcome-file>
+  	<welcome-file>product.jsp</welcome-file>
+  	<welcome-file>salad.jsp</welcome-file>
+  	<welcome-file>sweet.jsp</welcome-file>
+  	<welcome-file>cart.jsp</welcome-file>
+  	<welcome-file>checkout.jsp</welcome-file>
+  	<welcome-file>sellerProfile.jsp</welcome-file>
+  	<welcome-file>customerProfile.jsp</welcome-file>
+  	<welcome-file>chat.jsp</welcome-file>
+  	<welcome-file>Contact.jsp</welcome-file> 
+  	<welcome-file>thankYou.jsp</welcome-file>  	
+  </welcome-file-list>
+  
+  <!-- filter -->  
+  
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+    <init-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </init-param>
+</filter>
+<filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+</web-app>
